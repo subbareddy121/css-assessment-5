@@ -1,0 +1,320 @@
+
+.box1{
+    width: 70px;
+    height: 70px;
+    background-color: teal;
+    animation-name: box1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    
+    
+}
+@keyframes box1 {
+    60%{
+        transform: skewX(-20deg);
+    }
+    70%{
+        transform: skewX(20deg);
+    }
+}
+.b1{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    
+}
+.b2{
+    
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+.b3{
+    
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+.list{
+    margin-top: 10%;
+    margin-left: 190px;
+}
+.box2{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(77, 78, 78);
+    animation-name: box2;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    
+}
+@keyframes box2 {
+    70%{
+        transform: skewY(-20deg);
+    }
+    50%{
+        transform: skewY(20deg);
+    }
+}
+.bb1{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+.bb2{
+    
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+.bb3{
+  
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+.box3{
+    width: 70px;
+    height: 70px;
+    background-color: teal;
+    animation-name: box3;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    
+    
+    
+}
+@keyframes box3 {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.bx1{
+    position: absolute;
+    left: 20%;
+    top: 60%;
+}
+.bx2{
+   
+    position: absolute;
+    left: 40%;
+    top: 60%;
+}
+.bx3{
+   
+    position: absolute;
+    left: 60%;
+    top: 60%;
+}
+.lb1{
+    width: 70px;
+    height: 70px;
+    background-color: teal;
+    position: absolute;
+    left: 40%;
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    animation-name: lb1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes lb1 {
+    100%{
+        transform:translate(8px);
+        height: 100px;
+    }
+}
+.lb2{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(150, 56, 2);
+    position: absolute;
+    left: 40%;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+    animation-name: lb2;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes lb2 {
+    100%{
+        transition: width 2s;
+        width: 100px;
+    }
+}
+.lb3{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(11, 219, 91);
+    position: absolute;
+    left: 40%;
+    position: absolute;
+    left:60%;
+    top: 80%;
+    animation-name: lb3;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: reverse;
+}
+@keyframes lb3 {
+    70%{
+        transform: rotate(90deg);
+    }
+}
+.link{
+text-decoration-color: brown;
+color: brown;
+margin-left: 35%;
+}
+.main{
+    margin-left: 40%;
+}
+.bx{
+    background-color: rgb(149, 240, 12);
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.l1:hover{
+    transition: width 3s;
+    width: 300px;
+    transition-timing-function: ease-out;
+}
+.l2:hover{
+    transition: height 3s,width 3s;
+    width: 300px;
+    height: 300px;
+    
+}
+.l3:hover{
+    transition: width 3s;
+    width: 300px;
+    transition-timing-function: linear;
+}
+.l4:hover{
+    transition: width 3s;
+    width: 250px;
+    transition-timing-function: ease;
+}
+.l5:hover{
+    transition: width 3s;
+    width: 250px;
+    transition-timing-function: ease-in;
+}
+.l6:hover{
+    transition: width 3s;
+    width: 250px;
+    transition-timing-function: ease-out;
+}
+.l7:hover{
+    transition: width 3s;
+    width: 250px;
+    transition-timing-function: ease-in-out;
+}
+.sky{
+    background-image: url("sky.jpg");
+    height: 450px;
+}
+.flag{
+    width: 80px;
+    height: 65px;
+    position: absolute;
+    left: 300px;
+}
+.sun{
+    position: absolute;
+    top: -100px;
+    left:1200px;
+    width: 100px;
+    height: 100px;
+    animation: sun 20s infinite;
+}
+@keyframes sun {
+    100%{
+        transform: translateX(-100px);
+    }
+}
+.city{
+    background-image: url("city.png");
+    height: 250px;
+    width: 500%;
+    margin-top: 11%;
+    background-repeat: repeat-x;
+    animation: city 15s infinite;
+}
+@keyframes city {
+    100%{
+        transform: translateX(-1400px);
+    }
+}
+.road{
+    background-image: url("road.jpg");
+    height: 300px;
+    width: 500%;
+    animation-name: road;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes road {
+    100%{
+        transform: translateX(-1400px);
+    }
+}
+.car{
+    background-image: url("car.png");
+   position: absolute;
+   top: 400px;
+   left: 455px;
+    height: 150px;
+    width: 406px;
+    size: 100px;
+    z-index: 1;
+    animation: car 1s linear infinite;
+}
+@keyframes car {
+    100%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(1px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+.wheel{
+    background-image: url("whl.png");
+    margin-left: 30%;
+    height: 75px;
+    width: 75px;
+    size: 100px;
+    position: absolute;
+    top: 485px;
+    left: 34px;
+    z-index: 2;
+    animation: wheel 3s infinite;
+}
+@keyframes wheel {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.whel{
+    background-image: url("whl.png");
+    margin-left: 30%;
+    height: 75px;
+    width: 75px;
+    size: 100px;
+    position: absolute;
+    top: 485px;
+    left: 279px;
+    animation: whel 3s infinite;
+}
+@keyframes whel {
+    100%{
+        transform: rotate(360deg);
+    }
+}
